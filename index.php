@@ -1,17 +1,17 @@
 <?php
-// تضمين ملفات التعريف للفئات
+
 include 'Store.php';
 include 'Product.php';
 
-// إنشاء بعض المنتجات
+
 $product1 = new Product("Product 1", "https://i.pinimg.com/564x/ee/5e/b5/ee5eb5ad84b05f0dcf9f359f9eef5cb2.jpg", 199);
 $product2 = new Product("Product 2", "https://i.pinimg.com/564x/23/2d/3d/232d3dc900ca5bca2030652dac5f7b1c.jpg", 299);
 $product3 = new Product("Product 3", "https://i.pinimg.com/736x/d4/f7/9a/d4f79a82c62b5a7ef779bdb22e4df6a2.jpg", 399);
 
-// إنشاء متجر
+
 $store = new Store("Electro Store", "Find the best electronics here");
 
-// إضافة المنتجات إلى المتجر
+
 $store->addProduct($product1);
 $store->addProduct($product2);
 $store->addProduct($product3);
