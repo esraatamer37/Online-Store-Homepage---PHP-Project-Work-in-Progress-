@@ -9,7 +9,7 @@ $product2 = new Product("Product 2", "https://i.pinimg.com/564x/23/2d/3d/232d3dc
 $product3 = new Product("Product 3", "https://i.pinimg.com/736x/d4/f7/9a/d4f79a82c62b5a7ef779bdb22e4df6a2.jpg", 399);
 
 
-$store = new Store("Electro Store", "Find the best electronics here");
+$store = new Store("Electro Store",/*gh*/, "Find the best electronics here");
 
 
 $store->addProduct($product1);
