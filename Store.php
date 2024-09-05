@@ -6,7 +6,7 @@ class Store {
     private $products = array(); // Array of Product objects
 
     // Constructor
-    public function __construct($name, $image, $description) {
+    public function __construct($name,  $description) {
         $this->name = $name;
         $this->image = $image;
         $this->description = $description;
